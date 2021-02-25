@@ -1,12 +1,12 @@
-import boto3
 import sys
+import boto3
 
 try:
     def main():
         create_s3bucket(bucket_name)
 
-except Exception as e:
-    print(e)
+except Exception as error:
+    print(error)
 
 
 def create_s3bucket(bucket_name):
