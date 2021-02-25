@@ -1,24 +1,24 @@
-#Week 2 - Scripting Like A Developer
+# Week 2 - Scripting Like A Developer
 
 The code found in this repository is to help you learn how to script like a Developer.
 
-##WIP
+## WIP
 The code found in `Week 2 - Scripting Like A Developer` is currently a Work In Progress (WIP) and the readme will be updated when ready
 
-##PowerShell Code
+## PowerShell Code
 The PowerShell code found in `Week 2 - Scripting Like A Developer` is for anyone that wants to create a Resource Group in Azure
 
-##How to Use the PowerShell Code
+## How to Use the PowerShell Code
 The `New-ResourceGroup` function is found under the `Powershell` directory and can be used as a reusable function. A user has the ability to
 pass in parameters at runtime to ensure they can re-use the script at any point for any environment.
 
-##Python Code
+## Python Code
 The Python code found in `Week 2 - Scripting Like A Developer` is for anyone that wants to create and S3 bucket in AWS
 
-##How o Use the Python Code
+## How o Use the Python Code
 The `s3bucket.py` script is designed to be re-used at any point for any environment. There are no hard-coded values.
 
-##Examples
+## Examples
 
 ```Pwsh
 function New-ResourceGroup {
@@ -79,10 +79,10 @@ if __name__ == '__main__':
 python s3bucket.py 'cloudskillss3bucket'
 ```
 
-##Testing
+## Testing
 Both the Powershell and Python code have unit tests available to ensure that the desired outcomes, including values and types, are accurate.
 
 The tests can be found in the `Powershell` and `Python` directories.
 
-##Contributors
+## Contributors
 1. Tim Kerekes
