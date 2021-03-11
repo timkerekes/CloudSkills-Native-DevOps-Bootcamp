@@ -1,2 +1,6 @@
+# Ignore all Terraform Init/Deploy files
+
 **/Week3-InfrastructureAsCode/Terraform/*.terraform
 *.terraform
+.terraform*
+terraform.*
